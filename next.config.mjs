@@ -7,11 +7,17 @@ const nextConfig = {
         hostname: "i.ytimg.com",
         port: "",
         pathname: "/**",
-        source: "/",
-        destination: "/videos",
-        permanent: true,
       },
     ],
+  },
+  async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/videos",
+        permanent: true, // atau false jika Anda ingin pengalihan sementara
+      },
+    ];
   },
 };
 
