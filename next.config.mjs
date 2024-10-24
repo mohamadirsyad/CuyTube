@@ -15,7 +15,7 @@ const nextConfig = {
       {
         source: "/",
         destination: "/videos",
-        permanent: true, // atau false jika Anda ingin pengalihan sementara
+        permanent: true,
       },
     ];
   },
