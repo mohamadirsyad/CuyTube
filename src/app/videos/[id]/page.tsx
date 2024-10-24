@@ -2,7 +2,7 @@ import { apiKey } from "@/constant";
 import type { Metadata } from "next";
 
 async function fetchVideo(id: string) {
-  let url = new URL(
+  const url = new URL(
     `https://www.googleapis.com/youtube/v3/videos?id=${id}&key=${apiKey}`
   );
 

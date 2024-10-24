@@ -1,6 +1,7 @@
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import Link from "next/link";
 import Image from "next/image";
+
 interface Video {
   id: {
     videoId: string;
@@ -15,6 +16,7 @@ interface Video {
     };
   };
 }
+
 export default function VideoItem({ video }: { video: Video }) {
   return (
     <Card>
