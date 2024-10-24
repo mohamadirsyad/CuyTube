@@ -1,3 +1,12 @@
+dibuat dengan :
+- next js
+- typescript
+- tailwindCss
+
+
+https://cuy-tube.vercel.app/videos
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
